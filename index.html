@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
   <title>Registration Form</title>
   <style>
     body {
@@ -44,7 +46,7 @@
   };
 
   try {
-    const response = await fetch('http://localhost:3000/api/register', {
+    const response = await   fetch('https://your-render-app-url.onrender.com/api/register'), {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
